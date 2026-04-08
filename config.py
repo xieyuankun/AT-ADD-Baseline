@@ -16,8 +16,7 @@ def initParams():
                         default="yourpath/atadd/T1/label/dev.csv")
     parser.add_argument("--atadd_t1_eval_audio", type=str, help="Path to the evaluation audio for ATADD T1 dataset",
                         default='yourpath/atadd/T1/eval')
-    parser.add_argument("--atadd_t1_eval_label", type=str, help="Path to the evaluation label for ATADD T1 dataset",
-                        default="yourpath/atadd/T1/label/eval.csv")
+
 
     parser.add_argument("--atadd_t2_train_audio", type=str, help="Path to the training audio for ATADD T2 dataset",
                         default='yourpath/atadd/T2/train')
@@ -29,8 +28,7 @@ def initParams():
                         default="yourpath/atadd/T2/label/dev.csv")
     parser.add_argument("--atadd_t2_eval_audio", type=str, help="Path to the evaluation audio for ATADD T2 dataset",
                         default='yourpath/atadd/T2/eval')
-    parser.add_argument("--atadd_t2_eval_label", type=str, help="Path to the evaluation label for ATADD T2 dataset",
-                        default="yourpath/atadd/T2/label/eval.csv")
+
 
     # SSL folder prepare
     parser.add_argument("--xlsr", default="yourpath/huggingface/wav2vec2-xls-r-300m")

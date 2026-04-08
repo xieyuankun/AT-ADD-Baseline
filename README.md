@@ -11,9 +11,28 @@
 </p>
 
 <p align="center">
-  <img src="figure/intro.png" style="width: 100%; height: auto;">
+  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track1">
+    <img src="https://img.shields.io/badge/📊%20Track1%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track2">
+    <img src="https://img.shields.io/badge/📊%20Track2%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge">
+  </a>
 </p>
 
+<p align="center">
+  <a href="https://www.codabench.org/competitions/15477">
+    <img src="https://img.shields.io/badge/🏆%20Track1%20Competition-Codabench-4CAF50?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://www.codabench.org/competitions/15481">
+    <img src="https://img.shields.io/badge/🏆%20Track2%20Competition-Codabench-4CAF50?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <img src="figure/intro.png" style="width: 100%; height: auto;">
+</p>
 This repository provides the official baseline implementation for the **AT-ADD: All-Type Audio Deepfake Detection Challenge**.
 
 ---

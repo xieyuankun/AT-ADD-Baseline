@@ -332,16 +332,12 @@ def train(args):
                 desc_str = ''
                 for key in sorted(devlossDict.keys()):
                     desc_str += key + ':%.5f' % (np.nanmean(devlossDict[key])) + ', '
-                print(desc_str)
+
 
             valLoss = np.nanmean(devlossDict[monitor_loss])
             scores = torch.cat(score_loader, 0).data.cpu().numpy()
             labels = torch.cat(idx_loader, 0).data.cpu().numpy()
             preds = torch.cat(pred_loader, 0).data.cpu().numpy()
-
-            print(scores[labels == 0].shape)
-            print(scores[labels == 0])
-            print(scores[labels == 1].shape)
 
             val_eer = em.compute_eer(scores[labels == 0], scores[labels == 1])[0]
             val_f1 = f1_score(labels, preds, average='macro')
