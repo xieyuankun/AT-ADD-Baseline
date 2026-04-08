@@ -35,10 +35,11 @@
   <img src="figure/intro.png" style="width: 100%; height: auto;">
 </p>
 
-This repository provides the official baseline implementations of conventional and self-supervised learning (SSL)-based methods for the **AT-ADD: All-Type Audio Deepfake Detection Challenge**.  
+This repository provides the official baseline implementations of conventional and self-supervised learning (SSL)-based countermeasures for the **AT-ADD: All-Type Audio Deepfake Detection Challenge**.  
 
 For the ALLM-based baseline, please refer to:  
 https://github.com/yangchunmian123/AT-ADD-ALLM-Baseline
+
 ---
 
 ## 1. Data Preparation
