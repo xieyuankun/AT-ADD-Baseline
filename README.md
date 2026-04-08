@@ -1,30 +1,21 @@
 <h1 align="center">AT-ADD Challenge Baseline</h1>
 
 <p align="center">
-  <a href="https://www.at-add.com">
-    <img src="https://img.shields.io/badge/🏠%20Home%20Page-AT--ADD-ff7f0e?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
-  <a href="YOUR_ARXIV_LINK">
-    <img src="https://img.shields.io/badge/📄%20Evaluation%20Plan-arXiv-b31b1b?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
+  <a href="https://www.at-add.com"><img src="https://img.shields.io/badge/🏠%20Home%20Page-AT--ADD-ff7f0e?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/-%20-white?style=flat-square" width="10" height="28">
+  <a href="YOUR_ARXIV_LINK"><img src="https://img.shields.io/badge/📄%20Evaluation%20Plan-arXiv-b31b1b?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track1">
-    <img src="https://img.shields.io/badge/📊%20Track1%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
-  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track2">
-    <img src="https://img.shields.io/badge/📊%20Track2%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
+  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track1"><img src="https://img.shields.io/badge/📊%20Track1%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/-%20-white?style=flat-square" width="10" height="28">
+  <a href="https://huggingface.co/datasets/xieyuankun/AT-ADD-Track2"><img src="https://img.shields.io/badge/📊%20Track2%20Data%20%26%20Registration-HuggingFace-FFD21E?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.codabench.org/competitions/15477">
-    <img src="https://img.shields.io/badge/🏆%20Track1%20Competition-Codabench-4CAF50?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
-  <a href="https://www.codabench.org/competitions/15481">
-    <img src="https://img.shields.io/badge/🏆%20Track2%20Competition-Codabench-4CAF50?style=for-the-badge" style="vertical-align: middle;" />
-  </a>
+  <a href="https://www.codabench.org/competitions/15477"><img src="https://img.shields.io/badge/🏆%20Track1%20Competition-Codabench-4CAF50?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/-%20-white?style=flat-square" width="10" height="28">
+  <a href="https://www.codabench.org/competitions/15481"><img src="https://img.shields.io/badge/🏆%20Track2%20Competition-Codabench-4CAF50?style=for-the-badge"></a>
 </p>
 
 <p align="center">
