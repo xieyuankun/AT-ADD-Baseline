@@ -28,13 +28,17 @@
   <a href="https://www.codabench.org/competitions/15481">
     <img src="https://img.shields.io/badge/🏆%20Track2%20Competition-Codabench-4CAF50?style=for-the-badge">
   </a>
+  &nbsp;
 </p>
 
 <p align="center">
   <img src="figure/intro.png" style="width: 100%; height: auto;">
 </p>
-This repository provides the official baseline implementation for the **AT-ADD: All-Type Audio Deepfake Detection Challenge**.
 
+This repository provides the official baseline implementations of conventional and self-supervised learning (SSL)-based methods for the **AT-ADD: All-Type Audio Deepfake Detection Challenge**.  
+
+For the ALLM-based baseline, please refer to:  
+https://github.com/yangchunmian123/AT-ADD-ALLM-Baseline
 ---
 
 ## 1. Data Preparation
