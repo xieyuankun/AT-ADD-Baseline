@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://www.at-add.com"><img src="https://img.shields.io/badge/🏠%20Home%20Page-AT--ADD-ff7f0e?style=for-the-badge"></a>
   <img src="https://img.shields.io/badge/-%20-white?style=flat-square" width="10" height="28">
-  <a href="YOUR_ARXIV_LINK"><img src="https://img.shields.io/badge/📄%20Evaluation%20Plan-arXiv-b31b1b?style=for-the-badge"></a>
+  <a href="https://arxiv.org/abs/2604.08184"><img src="https://img.shields.io/badge/📄%20Evaluation%20Plan-arXiv-b31b1b?style=for-the-badge"></a>
 </p>
 
 <p align="center">
