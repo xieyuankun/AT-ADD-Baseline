@@ -47,6 +47,8 @@ atadd/
 │   └── label/
 │       ├── train.csv
 │       ├── dev.csv
+│       ├── progress.csv
+│       └── eval.csv
 ├── T2/
 │   ├── train/
 │   │   └── *.wav
@@ -57,6 +59,8 @@ atadd/
 │   └── label/
 │       ├── train.csv
 │       ├── dev.csv
+│       ├── progress.csv
+│       └── eval.csv
 ```
 
 ---
@@ -136,6 +140,40 @@ python generate_predict.py
 ```
 
 The script applies a default threshold of **0.5** to produce `predict.csv`, which can be directly used for submission.
+
+### Score Progress or Full Eval Labels Locally
+
+`evaluate.py` reproduces the Codabench scoring rules for all four combinations:
+
+- Track 1 progress and full eval: overall Macro-F1.
+- Track 2 progress and full eval: Macro-F1 for speech, sound, singing, and music, followed by their mean.
+
+The prediction input is the `name,predict` CSV produced by `generate_predict.py`,
+which is also the Codabench submission format.
+
+Point `--label_root` to the `atadd/` dataset root shown in the Data Preparation section above.
+
+Run any of the four evaluation modes:
+
+```bash
+# Track 1 progress
+python evaluate.py --track t1 --subset progress --label_root /path/to/atadd --prediction_csv /path/to/t1_progress_predict.csv
+
+# Track 1 full eval
+python evaluate.py --track t1 --subset eval --label_root /path/to/atadd --prediction_csv /path/to/t1_eval_predict.csv
+
+# Track 2 progress
+python evaluate.py --track t2 --subset progress --label_root /path/to/atadd --prediction_csv /path/to/t2_progress_predict.csv
+
+# Track 2 full eval
+python evaluate.py --track t2 --subset eval --label_root /path/to/atadd --prediction_csv /path/to/t2_eval_predict.csv
+```
+
+You can use `--label_csv` instead of `--label_root` to select one label file
+explicitly. Results are printed and saved next to the prediction file as
+`t1_progress_scores.json`, `t1_eval_scores.json`, `t2_progress_scores.json`, or
+`t2_eval_scores.json`. The evaluator rejects missing, duplicate, or unknown file
+names in the same way as the Codabench programs.
 
 ---
 
