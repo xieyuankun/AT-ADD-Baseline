@@ -204,6 +204,10 @@ Additionally, this framework supports **data augmentation** methods such as MUSA
 
 We gratefully acknowledge the following works, which serve as important baselines and foundations for this repository:
 
+The **AASIST** architecture used in this repository was originally proposed by **Jee-weon Jung et al.**.
+
+The **FT-XLSR-AASIST** baseline is based on the SSL-based anti-spoofing framework developed and open-sourced by **Hemlata Tak et al.**, which fine-tunes a pretrained wav2vec XLS-R frontend and combines it with an AASIST-based backend.
+
 **AASIST**
 ```bibtex
 @inproceedings{jung2022aasist,
